@@ -1,0 +1,33 @@
+{
+  "name": "svg-square-grid-generator",
+  "version": "0.0.1",
+  "description": "Small CLI utility that generates a grid of squares, for given parameters, in svg format",
+  "main": "generate.coffee",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "bin": {
+    "grid-gen": "./generate.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chester1000/svg-square-grid-generator.git"
+  },
+  "keywords": [
+    "svg",
+    "node",
+    "square",
+    "coffee",
+    "generator"
+  ],
+  "author": "Damian Mee <mee.damian@gmail.com> (http://meedamian.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chester1000/svg-square-grid-generator/issues"
+  },
+  "homepage": "https://github.com/chester1000/svg-square-grid-generator#readme",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "meow": "^3.1.0"
+  }
+}
