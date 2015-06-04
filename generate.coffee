@@ -76,10 +76,10 @@ fs.readFile templatePath, (err, data) ->
     .replace SIZE_PH, gridSize
     .replace LINES_PH, "#{columns}\n\n#{rows}"
 
-  console.log "Saving to #{outputPath}..."
+  console.log "Saving to #{b outputPath}..."
   fs.writeFile outputPath, data, (err) ->
     if err
       console.error err
       return
 
-    console.log 'Success!'
+    console.log chalk.green 'Success!'
