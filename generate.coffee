@@ -7,7 +7,6 @@ path  = require 'path'
 chalk = require 'chalk'
 
 
-
 UNIT_PH = new RegExp '%UNIT%', 'g'
 SIZE_PH = new RegExp '%GRID_SIZE%', 'g'
 LINES_PH = new RegExp '<lines />'

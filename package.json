@@ -14,11 +14,11 @@
     "url": "git+ssh://git@github.com/chester1000/svg-square-grid-generator.git"
   },
   "keywords": [
-    "svg",
+    "coffee",
+    "generator",
     "node",
     "square",
-    "coffee",
-    "generator"
+    "svg"
   ],
   "author": "Damian Mee <mee.damian@gmail.com> (http://meedamian.com)",
   "license": "MIT",
@@ -28,6 +28,7 @@
   "homepage": "https://github.com/chester1000/svg-square-grid-generator#readme",
   "dependencies": {
     "chalk": "^1.0.0",
+    "coffee-script": "^1.9.3",
     "meow": "^3.1.0"
   }
 }
