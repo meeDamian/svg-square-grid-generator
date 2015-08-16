@@ -1,6 +1,6 @@
 {
   "name": "svg-square-grid-generator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Small CLI utility that generates a grid of squares, for given parameters, in svg format",
   "main": "generate.coffee",
   "scripts": {
